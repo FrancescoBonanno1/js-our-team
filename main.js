@@ -7,10 +7,10 @@
 for (let i = 0; i < 6; i++) {
     let nomisequenziali = persone.nome[i];
     console.log(nomisequenziali);
-    
+    document.getElementById("nome").innerHTML = (nomisequenziali);
 }
 for (let i = 0; i < 6; i++) {
     let jobsequence  = persone.professione[i];
     console.log(jobsequence);
-    
+    document.getElementById("posizione").innerHTML = (jobsequence);
 }

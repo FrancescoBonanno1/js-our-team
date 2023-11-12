@@ -1,14 +1,16 @@
  const persone = {
-    nome :["wayne barrett" , "angela Caroll" , "Gordon Freeman" , "Angela Lopez" , "Scott Estrada" , "Barbara Ramos"] ,
+    "nome" : ["wayne barrett" , "angela Caroll" , "Gordon Freeman" , "Angela Lopez" , "Scott Estrada" , "Barbara Ramos"] ,
 
-    professione : ["Founder & CEO", "Chief Editor" , "Office Manager" , "Social Media Manager" , "Developer" , "Graphic Designer"]
+    "professione": ["Founder & CEO", "Chief Editor" , "Office Manager" , "Social Media Manager" , "Developer" , "Graphic Designer"]
 
 };
-for (let professione in persone){
-    console.log(persone.professione);
-    let position = document.getElementById("posizione").innerText =(persone[professione]);
+for (let i = 0; i < 6; i++) {
+    let nomisequenziali = persone.nome[i];
+    console.log(nomisequenziali);
+    
 }
-for (let nome in persone){
-    console.log(persone.nome);
-    let name = document.getElementById("nome").innerText =(persone.nome);
+for (let i = 0; i < 6; i++) {
+    let jobsequence  = persone.professione[i];
+    console.log(jobsequence);
+    
 }

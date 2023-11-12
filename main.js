@@ -4,7 +4,11 @@
     professione : ["Founder & CEO", "Chief Editor" , "Office Manager" , "Social Media Manager" , "Developer" , "Graphic Designer"]
 
 };
+for (let professione in persone){
+    console.log(persone.professione);
+    let position = document.getElementById("posizione").innerText =(persone[professione]);
+}
 for (let nome in persone){
-    console.log(persone[nome]);
-    let identity = document.getElementById("identita").innerText =(persone[nome]);
+    console.log(persone.nome);
+    let name = document.getElementById("nome").innerText =(persone.nome);
 }
